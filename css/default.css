@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
+
+html, body {
+    font-family: "Quicksand", sans-serif;
+    margin: 0;
+}
+
+.app {
+    height: 4000px;
+}
+
+#skills {
+    height: 1000px;
+}
+
+.aboutcontainer {
+    display: inline-grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 1fr 1fr;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 100px;
+    height: 500px;
+}
+
+.aboutimage {
+    grid-column: 1;
+    grid-row: 1/3;
+}
+
+.aboutme {
+    grid-column: 2/5;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
+#about {
+    height: 600px;
+}
+
+#about {
+    background-color: #2B2B2B;
+}
+
+#about h2 {
+    margin: 0;
+    color: white;
+}
+
+#about p {
+    color: #7A7A7A;
+}
+
+#about button {
+    border-radius: 5px;
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 20px 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#about button:hover {
+    background-color: white;
+    color: #2B2B2B;
+}
+
+#about a {
+    color: white;
+    background-color: #444;
+    text-decoration: none;
+}
+
+#about a:hover {
+    background-color: white;
+    color: #2B2B2B;
+}
+
+#about img {
+    height: 200px;
+    width: auto;
+}
+
+.resumecontainer {
+    display: inline-grid;
+    grid-template-rows: 20% 80%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 100px;
+}
+
+.resumecontainer .title {
+    grid-row: 1;
+}
+
+.resumecontainer h1 {
+    border-bottom: 3px solid #11ABB0;
+    padding-bottom: 6px;
+    margin: 0;
+}
+
+.resumecontainer h2 {
+    margin: 0;
+}
+
+.workcontainer {
+    display: inline-grid;
+    grid-template-rows: 14% 43% 43%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 100px;
+}
+
+.workcontainer h1 {
+    border-bottom: 3px solid #11ABB0;
+    padding-bottom: 6px;
+    margin: 0;
+}
+
+.workcontainer h2 {
+    margin: 0;
+}
+
+.projectcontainer {
+    display: inline-grid;
+    grid-template-rows: 10% 45% 45%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 100px;
+    width: 100%;
+}
+
+.projectcontainer h1 {
+    border-bottom: 3px solid #11ABB0;
+    padding-bottom: 6px;
+    margin: 0;
+}
+
+.projectcontainer h2 {
+    margin: 0;
+}
+
+.skillscontainer {
+    display: inline-grid;
+    grid-template-rows: 5% 47.5% 47.5%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 100px;
+    width: 100%;
+}
+
+.skillscontainer h1 {
+    border-bottom: 3px solid #11ABB0;
+    padding-bottom: 6px;
+    margin: 0;
+}
+
+.skillscontainer h2 {
+    margin: 0;
+}
+
+.incontainer {
+    grid-row: 2;
+    display: inline-grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 20% 80%;
+    padding-top: 20px;
+}
+
+.incontainer .title {
+    grid-column: 1;
+    grid-row: 1/3;
+}
+
+.incontainer .name {
+    grid-column: 2/4;
+    grid-row: 1;
+}
+
+.incontainer .date {
+    grid-column: 4;
+    grid-row: 1;
+    text-align: right;
+    font-size: 18px;
+}
+
+.incontainer .desc {
+    grid-column: 2/5;
+    grid-row: 2;
+}
+
+.incontainer2 {
+    grid-row: 3;
+    display: inline-grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 20% 80%;
+    padding-top: 40px;
+}
+
+.incontainer2 .title {
+    grid-column: 1;
+    grid-row: 1/3;
+}
+
+.incontainer2 .name {
+    grid-column: 2/4;
+    grid-row: 1;
+}
+
+.incontainer2 .date {
+    grid-column: 4;
+    grid-row: 1;
+    text-align: right;
+    font-size: 18px;
+}
+
+.incontainer2 .desc {
+    grid-column: 2/5;
+    grid-row: 2;
+}
+
+.incontainer3 {
+    grid-row: 2;
+    display: inline-grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 20% 80%;
+    padding-top: 20px;
+}
+
+.incontainer3 .title {
+    grid-column: 1;
+    grid-row: 1/3;
+}
+
+.incontainer3 .name {
+    grid-column: 2/5;
+    grid-row: 1;
+}
+
+.incontainer3 .desc {
+    grid-column: 2/5;
+    grid-row: 2;
+}
+
+.incontainer4 {
+    grid-row: 2;
+    display: inline-grid;
+    grid-template-columns: 25% 75%;
+    padding-top: 20px;
+}
+
+.incontainer4 .title {
+    grid-column: 1;
+}
+
+.incontainer4 .skillbar {
+    grid-column: 2;
+}
+
+.incontainer4 h2 {
+    padding-top: 20px;
+}
+
+.incontainer5 {
+    grid-row: 3;
+    display: inline-grid;
+    grid-template-columns: 25% 75%;
+}
+
+.incontainer5 .title {
+    grid-column: 1;
+}
+
+.incontainer5 .skillbar {
+    grid-column: 2;
+}
+
+.incontainer5 h2 {
+    padding-top: 20px;
+}
+
+.projectcontainer a {
+    color: black;
+}
+
+.projectcontainer a:hover {
+    font-weight: bold;
+}
+
+* {box-sizing:border-box}
+
+.skillcontainer {
+    width: 100%; /* Full width */
+    background-color: #ccc; /* Grey background */
+}
+
+.skillshtml {
+    width: 70%; 
+    background-color: black;
+}
+
+.skillscss {
+    width: 80%; 
+    background-color: black;
+}
+
+.skillsjs {
+    width: 70%; 
+    background-color: black;
+}
+
+.skillsreact {
+    width: 65%; 
+    background-color: black;
+}
+
+.skillsjq {
+    width: 55%; 
+    background-color: black;
+}
+
+.skillsjava {
+    width: 70%; 
+    background-color: black;
+}
+
+.skillspy {
+    width: 65%; 
+    background-color: black;
+}
+
+.skillsphp {
+    width: 65%; 
+    background-color: black;
+}
+
+.skillsc {
+    width: 55%; 
+    background-color: black;
+}
+
+.skillsnode {
+    width: 70%; 
+    background-color: black;
+}
+
+#footer {
+    background-color: #111;
+    height: 150px;
+    width: 100%;
+    color: white;
+}
+
+.footertext {
+    padding-top: 100px;
+    text-align: center;
+}
